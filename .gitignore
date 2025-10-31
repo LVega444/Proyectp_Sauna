@@ -1,0 +1,54 @@
+# =========================================
+# Visual Studio / .NET project ignore rules
+# =========================================
+
+# Visual Studio
+.vs/
+*.db
+*.db-shm
+*.db-wal
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+
+# Backup and cache files
+*.cache
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.vscode/
+*.tmp
+
+# JetBrains Rider
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+
+# Misc
+*.log
+*.tlog
+*.DS_Store
+Thumbs.db
+
+# Optional user files
+*.bak
+*.old
+*.orig
