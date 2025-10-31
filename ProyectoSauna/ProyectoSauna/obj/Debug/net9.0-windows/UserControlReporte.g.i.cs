@@ -64,7 +64,7 @@ namespace ProyectoSauna {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ProyectoSauna;component/usercontrolreporte.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ProyectoSauna;V1.0.0.0;component/usercontrolreporte.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\UserControlReporte.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

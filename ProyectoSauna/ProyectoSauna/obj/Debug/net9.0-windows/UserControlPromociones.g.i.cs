@@ -56,7 +56,7 @@ namespace ProyectoSauna {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ProyectoSauna;component/usercontrolpromociones.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ProyectoSauna;V1.0.0.0;component/usercontrolpromociones.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\UserControlPromociones.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
